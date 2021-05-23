@@ -2,7 +2,10 @@
 This produced a very secure password generator with input validation. There is no way the user could break the code and the code itself isn't verbose or excessive.
 
 **What did I learn from this assignment?** <BR />
-I learned a lot about the display flex option. I tinkered a lot with margins. I perfected posting hyperlinks that open in a new window. I learned to also have a lot of tenacity with web developing. It's easy to get stuck, but I don't get discouraged.
+I learned what CSS is like integrated with JavaScript 6.0. I saw some tutorial videos online and I found a structure I really liked. It's very clean, simplistic, and professional. 
+The only difference of JavaScript 6.0 from 5.0 that I saw in this exercise is I didn't use var. I used const for global scope variables although it was used a some in local scope variables. Their values are absolute, meaning const values can never be declared. I also used let variables, which can only be used in the local scope. I explained all my code in the homework.
+
+**NO CODE WAS CUT AND PASTED**
 
 **URLs for the Horiseon Website** <BR />
 <a href ="https://burkemm.github.io/Matts-Password-Generator/">My Password Generator</a> <BR />
@@ -12,4 +15,3 @@ I learned a lot about the display flex option. I tinkered a lot with margins. I 
 
 ![Matts-Portfolio](./Assets/Matts-Password-Generator.PNG)
 
-<a href="https://github.com/burkemm/Matts-Web-Portfolio/blob/main/assets/images/Matts-Web-Portfolio.png"> Matt's Portfolio Website Screenshot link</a>

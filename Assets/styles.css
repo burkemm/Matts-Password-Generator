@@ -1,3 +1,4 @@
+/* this sets the parameters for the body section of our HTML document. */
 body {
     background-color: #333;
     margin: 0;
@@ -8,7 +9,7 @@ body {
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+/* The container is the background of the password generator. */
 .container {
     background-color: #043f09;
     padding: 3rem;
@@ -19,7 +20,7 @@ body {
     align-items: center;
     flex-direction: column;
 }
-
+/* I used a grid format for a nice and crisp layout for the form. I also added gapping between the items for spacing. */ 
 .form {
     display: grid;
     grid-template-columns: auto auto;
@@ -28,25 +29,26 @@ body {
     justify-content: center;
     align-items: center;    
 }
-
+/* I aligned the text of the title to the center with a 0 margin. */
 .title {
     margin: 0;
     text-align: center;
 }
-
+/* I made all the labels bold to stand out better so it's easier to read. */
 label {
     font-weight: bold;
 }
-
+/* This aligns the slider and the number textbox in the Number of characters section to the center. */
 .char-amt-container {
     display: flex;
     align-items: center;
 }
-
+/* This set the size of the number textbox in the number of characters section. */
 .input-number {
     width: 2.5rem;
 }
-
+/* This set up the parameters for the password output box. I put a hieght of 6rem so the output box has enough room for 128 characters. 
+   I found out the work-break command automatically puts in word breaks if the text reaches the end of the output box. */
 .display-password {
     background-color: white;
     color: black;
@@ -60,7 +62,8 @@ label {
     word-break: break-all;
     border-radius: .5rem;    
 }
-
+/* This set the parameters of the button. I made the background transparent to blend into the generator background. 
+The Span 2 option allowed me to expand the generate password box to 2 columns. It looks neater. */
 .button {
     grid-column: span 2;
     background-color: transparent;
@@ -71,7 +74,7 @@ label {
     cursor: pointer;
     border-radius: 1rem;
 }
-
+/* I changed the background color to an almost white when the generate password button is hovered. */
 .button:hover {
     background-color: #FFFFFF33;
 }
